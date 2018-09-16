@@ -1,0 +1,27 @@
+:root {
+  --box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #e7e7e7;
+  box-shadow: var(--box-shadow);
+}
+
+section {
+  background-color: linear-gradient(#e6f4ff, red);
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  text-shadow: var(--box-shadow);
+}
